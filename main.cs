@@ -140,10 +140,6 @@ class Program
         library[sira].Copies--;
         Console.WriteLine($"'{library[sira].Title}' adli kitap odunc alindi. Kalan kopya sayisi: {library[sira].Copies}");
     }
-    else if (sira != -1)
-    {
-        Console.WriteLine("Seçilen kitap ödünç alınamaz. Kopya mevcut değil.");
-    }
     else
     {
         Console.WriteLine("Kitap bulunamadı.");
@@ -190,6 +186,5 @@ class Program
         }
     }
 }
-
 
 }
